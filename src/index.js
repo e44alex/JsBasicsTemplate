@@ -1,24 +1,19 @@
-function f() {
+export function f() {
   return 1 + 10;
 }
 
 f();
 
-function add(a, b) {
+export function add(a, b) {
   return a + b;
 }
 
-function multiply(a, b) {
+export function multiply(a, b) {
   return a * b;
 }
 
-function greet(name) {
+export function greet(name) {
   return `Hello, ${name}!`;
-}
-
-// Export functions for testing
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { add, multiply, greet };
 }
 
 console.log('Hello World!');

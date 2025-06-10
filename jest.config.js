@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   testEnvironment: 'node',
   collectCoverageFrom: ['src/**/*.{js,jsx}', '!src/**/*.test.{js,jsx}', '!**/node_modules/**'],
   testMatch: [

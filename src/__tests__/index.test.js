@@ -1,4 +1,4 @@
-const { add, multiply, greet } = require('../index');
+import { add, greet, multiply } from '../index.js';
 
 describe('Math Functions', () => {
   test('should add two numbers', () => {
